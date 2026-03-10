@@ -1,3 +1,15 @@
+
+def calculate_area ( length , width ):
+    result = length * width
+    if result > 100: print ( "Large area!" )
+    return result
+
+my_length = 10
+my_width = 5
+area = calculate_area ( my_length, my_width )
+print ( f"The area is: {area}" )
+
+
 # Python Developer Assessment Program
 
 ## Overview
@@ -16,3 +28,4 @@ The project simulates real-world developer workflows: setting up a project, usin
 1. Clone the repository:
    ```bash
    git clone <repo_url>
+
