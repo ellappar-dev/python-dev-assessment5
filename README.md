@@ -1,31 +1,15 @@
+Practice enforcing Python coding standards using automated tools like Black (formatter) and Flake8 (linter). The goal is to understand how consistent style improves readability and reduces bugs.
 
-def calculate_area ( length , width ):
-    result = length * width
-    if result > 100: print ( "Large area!" )
-    return result
+Process
 
-my_length = 10
-my_width = 5
-area = calculate_area ( my_length, my_width )
-print ( f"The area is: {area}" )
+Created a new branch: task-1.3-code-style.
 
+Added a file bad_style.py with deliberately poorly formatted code.
 
-# Python Developer Assessment Program
+Ran Flake8 to identify style violations and logical issues.
 
-## Overview
-This repository contains my solutions for the Python Developer Assessment Program.  
-It demonstrates skills in Git, coding style, object-oriented programming, error handling, and API interaction.  
-The project simulates real-world developer workflows: setting up a project, using version control, debugging, and integrating external APIs.
+Applied Black to automatically reformat the file.
 
-## Completed Tasks
-- Task 1.2: Git Basics  
-- Task 1.3: Code Style  
-- Task 2.2: OOP Fundamentals (`oop_fundamentals.py`)  
-- Task 2.3: Error Handling & Debugging (`debug_errors.py`)  
-- Task 3.1: API Interaction (`api_client.py`)  
+Re-ran Flake8 and manually fixed any remaining issues.
 
-## Instructions
-1. Clone the repository:
-   ```bash
-   git clone <repo_url>
-
+Committed and pushed the cleaned version to GitHub.
